@@ -185,7 +185,7 @@ const animationTimeline = () => {
       ".girl-dp",
       0.5,
       {
-        scale: 3.5,
+        scale: 1.5,
         opacity: 0,
         x: 25,
         y: -25,
@@ -255,7 +255,7 @@ const animationTimeline = () => {
       y: 30,
       zIndex: "-1",
     })
-    .staggerFrom(".nine p button", 1, ideaTextTrans, 1.2)
+    .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
     .to(
       ".last-smile",
       0.5,
