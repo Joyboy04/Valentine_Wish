@@ -231,6 +231,13 @@ body {
 #replay {
   z-index: 3;
   cursor: pointer;
+  text-decoration: underline;
+}
+
+#clickableText {
+  z-index: 3;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 /* Media Queries */
